@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pincode Details App - India</title>
+    <link rel = 'stylesheet' href = 'style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"></head>
+<body>
+
+    <div id = 'invalid-message'>
+        <p id = 'invalid-message-text'>Incorrect Pincode</p>
+    </div>
+
+    <div id = 'container'>
+
+        <h1 class = 'heading' id = 'main-heading'>Enter A Pincode</h1>
+
+        <div id = 'form'>
+            <input id = 'form-input' type = 'number' placeholder = 'e.g. 110001'>
+            <span id = 'form-icons'>
+                <i id = 'search-icon' class="fa fa-search form-icon" aria-hidden="true"></i>
+            </span>
+            <button class = 'btn' id = 'submit-btn'>Submit</button>
+        </div>
+
+        <h2 class = 'heading' id = 'location-details-heading'>Location Details</h2>
+
+        <div id = 'location-details-container'>
+            <ul id  = 'location-details-list'></ul>
+        </div>
+
+    </div>
+
+    <script src = 'main.js'></script>
+</body>
+</html>
